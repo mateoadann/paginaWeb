@@ -1,0 +1,75 @@
+
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    box-sizing: border-box;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    
+
+}   
+header{
+
+}
+.div-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12%;
+    
+}
+.navegation{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+.imagenes3{
+    width: 90%;
+    display: block;
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2, h3{
+    color: rgb(35, 44, 81);
+}
+h2{
+    font-size: 200%;
+}
+p{
+    color: rgb(143, 148, 167);
+}
+.primerParrafo{
+    line-height: 25px;
+    text-align: justify;
+}
+.boton{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(242, 95, 58);
+    padding: 4%;
+    border-radius: 40px;
+    width: 40%;
+    border: none;
+    color: rgb(249, 249, 249);
+}
+.articulo1 div{
+    background-color: rgb(242, 95, 58);
+    width: 20%;
+    display: block;
+    border-radius: 50px;
+    color: rgb(249, 249, 249);
+    padding: 2%;
+}
+.articulo1 p{
+    font-size: 13px;
+    line-height: 20px;
+    text-align: justify;
+}
+.articulo1 h3{
+    display: block;
+    font-size: 15px;
+    background-color: rgb(255, 239, 234);
+}
+
