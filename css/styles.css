@@ -67,7 +67,7 @@ p{
     width: 15%;
     position: relative;
     display: inline-block;
-    left: -3%;
+    
     border-radius: 50px;
     color: rgb(249, 249, 249);
     padding: 1.5%;
@@ -84,9 +84,9 @@ p{
     display: inline;
     position: relative;
     bottom: 10%;
-    left: -6%;
+    left: -2%;
     font-size: 15px;
-    padding: 1% 5%;
+    padding: 1% 2%;
     margin-left: 0%;
     text-align: center;
     background-color: rgb(255, 239, 234);
@@ -97,7 +97,6 @@ p{
     width: 15%;
     position: relative;
     display: inline-block;
-    left: -4%;
     margin-right: 0%;
     border-radius: 50px;
     color: rgb(249, 249, 249);
@@ -107,9 +106,9 @@ p{
 .articulo2 h3{
     display: inline;
     position: relative;
-    left: -7%;
+    left: -5%;
     bottom: 10%;
-    padding: 1% 10% 1% 14%;
+    padding: 1% 12% 1% 6%;
     margin-left: 0%;
     text-align: center;
     font-size: 15px;
@@ -137,12 +136,12 @@ p{
 .articulo3 h3{
     display: inline;
     position: relative;
-    left: -3%;
     bottom: 10%;
-    padding: 1% 2%;
+    left: -4%;
+    padding: 1% 2% 1% 3%;
     margin-left: 0%;
-    text-align: center;
-    font-size: 15px;
+    text-align: end;
+    font-size: 14px;
     background-color: rgb(255, 239, 234);
 }
 .articulo3 p{
