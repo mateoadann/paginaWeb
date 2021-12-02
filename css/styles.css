@@ -14,9 +14,8 @@
     
 }
 .navegation{
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
+    display: none;
+    
 }
 .imagenes3{
     width: 90%;
@@ -25,11 +24,8 @@
     margin-left: auto;
     margin-right: auto;
 }
-h2, h3{
+h3{
     color: rgb(35, 44, 81);
-}
-h2{
-    font-size: 200%;
 }
 p{
     color: rgb(143, 148, 167);
@@ -181,6 +177,7 @@ p{
     padding: 30% 10%;
     width: 100vw;
     margin: 0%;
+    max-width: max-content;
 }
 .section5 h2{
     color: rgb(255, 239, 234);
@@ -195,19 +192,104 @@ p{
 
 }
 footer{
-    position: relative;
-    margin-top: 0px;
+    padding: 0%;
+    margin: 0px;
     background-color: rgb(35, 44, 81);
+    width: 375px;
+    height: 80vh
 }
-footer ul {
+.footerSection{
+    width: 100%;
+    position: relative;
+}
+.FC{
+    color: rgb(255, 239, 234); 
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content:space-around ;
+    display: inline;
+    position: absolute;
+    left: 5%;
+    line-height: 30px;
+    text-align: start;
+    
+}
+.SC{
+    color: rgb(255, 239, 234);
+    list-style: none;
+    position: absolute;
+    display: inline;
+    text-align: center;
+    left: 40%;
+    line-height: 30px;
+
+}
+.iconos{
+    color: rgb(255, 239, 234);
+    position: relative;
+    display: inline;
+    margin: auto;
+    z-index: 10;
+    font-size: 180%;
+    top: 50%;
 }
 footer a{
     text-decoration: none;
     font-style: none;
     color: rgb(255, 239, 234);
+}
+
+footer p{
+    position: relative;
+    top: 30%;
+}
+
+@media(min-width: 376px) {
+    .ham{
+        display: none;
+    }
+    .navegation{
+        flex-direction: row;
+        display: flex ;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        justify-content: space-around;
+        
+
+    }
+    .boton0{
+        display: inline;
+        position: relative;
+        right: -35%;
+        top: -10%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: rgb(242, 95, 58);
+        padding: 1% 1% ;
+        border-radius: 40px;
+        border: none;
+        color: rgb(249, 249, 249);
+    }
+    .div-2{
+        position: relative;
+        width: 45%;
+        
+    }
+    .div1 h2{
+        position: relative;
+        top: -50%;
+    }
+    .section1{
+        position: relative;
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+    .imagenes3{
+        width: 50%;
+        position: relative;
+        display: inline-block;
+        margin-top: 12%;
+        
+    }
+    
 }
