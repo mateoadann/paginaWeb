@@ -274,7 +274,7 @@ footer p{
     background-color: transparent;
 }
 /* ---------------------------MEDIA QUERIE------------------------------------------ */
-@media(min-width: 376px) {
+@media(min-width: 500px) {
     .ham{
         display: none;
     }
